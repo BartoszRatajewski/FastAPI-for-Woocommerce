@@ -1,8 +1,8 @@
 import json
 from fastapi import FastAPI
 from sqlalchemy import text
-from db import engine
-from queries import (
+from app.db import engine
+from app.queries import (
     GET_ORDER_IDS,
     GET_ORDER_ITEMS,
     GET_SHIPMENT_DETAILS,
